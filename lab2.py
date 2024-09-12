@@ -1,9 +1,4 @@
-a = 'Hello world' 
-b = 'Irina'
-c = 'Bielova'
-d = 16
-
-name = [a, b, c, d, True, 3.14]
+name = ["Hello world", "Irina", "Bielova", 16, True, 3.14]
 name2 = [type(x) for x in name]
 print(name2)
 
